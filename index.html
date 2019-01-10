@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="icon" sizes="57x57" href="images/android-icon-192x192.png">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+    <script src="script/text.js"></script>
+
+    <title>Rocketium Project</title>
+
+</head>
+
+<body>
+
+    <h1>Message</h1>
+
+    <div class="message">
+        <textarea id='text' rows="4" cols="50" placeholder="Some text..." onkeyup=" addText()" onfocusout="focusOutFunction()"
+            onfocusin="focusInFunction()"></textarea>
+    </div>
+</body>
+
+</html>

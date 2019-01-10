@@ -1,0 +1,26 @@
+body {
+    background-color: #F8F8F8;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: Comic Sans MS;
+    color: #404040
+}
+
+.message {
+    text-align: center;
+}
+
+textarea {
+    width: 37%;
+    height: 200px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+    margin-top: 20px;
+}
